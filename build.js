@@ -5,7 +5,7 @@ const CleanCSS = require('clean-css');
 const Terser = require('terser');
 
 const outDir = path.join(__dirname, 'al-ehsan');
-const baseUrl = 'https://ahsssan-moving.com'; // Placeholder
+const baseUrl = 'https://www.el-ehsan.com'; // Placeholder
 const companyName = 'الاحسان لنقل الأثاث';
 const phone = '0545863986';
 const waUrl = `https://wa.me/966${phone.substring(1)}`;
