@@ -24,7 +24,7 @@ const neighborhoods = [
 
 const articles = [
   {
-    id: 'article-1',
+    id: 'naql-afsh-riyadh',
     title: 'كيف تختار شركة نقل عفش في الرياض؟',
     description: 'نصائح مهمة لاختيار أفضل شركة نقل عفش في الرياض بناءً على التجربة والخبرة والأسعار.',
     content: `
@@ -48,7 +48,7 @@ const articles = [
     `
   },
   {
-    id: 'article-2',
+    id: 'asar-naql-afsh-riyadh-2026',
     title: 'أسعار نقل العفش في الرياض 1446',
     description: 'تعرف على العوامل اللي تحدد سعر نقل العفش وكيف تضمن أفضل سعر من الاحسان.',
     content: `
@@ -72,7 +72,7 @@ const articles = [
     `
   },
   {
-    id: 'article-3',
+    id: 'nasaeh-naql-afsh',
     title: 'نصايح ذهبية قبل ما تنقل عفشك',
     description: 'وش تسوي قبل النقل؟ خطوات بسيطة توفر عليك التعب والوقت.',
     content: `
