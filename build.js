@@ -58,6 +58,12 @@ if (fs.existsSync(srcImagesDir) && srcImagesDir !== outImagesDir) {
   fs.cpSync(srcImagesDir, outImagesDir, { recursive: true });
 }
 
+// Copy public folder contents to the output directory (for favicons and manifest)
+const publicDir = path.resolve(__dirname, 'public');
+if (fs.existsSync(publicDir) && publicDir !== outDir) {
+  fs.cpSync(publicDir, outDir, { recursive: true });
+}
+
 // 1. Save Unminified versions
 fs.writeFileSync(path.join(outDir, 'css/style.css'), cssInput);
 fs.writeFileSync(path.join(outDir, 'js/main.js'), jsInput);
