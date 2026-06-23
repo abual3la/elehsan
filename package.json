@@ -13,6 +13,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "clean-css": "^5.3.3",
     "terser": "^5.46.2"
   }
